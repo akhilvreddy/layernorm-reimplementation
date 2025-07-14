@@ -1,7 +1,3 @@
-import sys
-import os
-sys.path.append(os.path.abspath(".."))
-
 import torch
 from layernorm.utils import compute_mean, compute_variance
 
